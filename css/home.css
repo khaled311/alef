@@ -691,12 +691,14 @@ ul.res {
           border: 1px solid #fff;
           -webkit-transform: rotate(45deg);
                   transform: rotate(45deg); }
-    @media (max-width: 991px) {
-      .slider .main-slider .owl-dots {
-        bottom: 20px; } }
-    @media (max-width: 767px) {
-      .slider .main-slider .owl-dots {
-        bottom: 10px; } }
+    .slider .main-slider .owl-dots {
+      bottom: 30px; }
+      @media (max-width: 991px) {
+        .slider .main-slider .owl-dots {
+          bottom: 20px; } }
+      @media (max-width: 767px) {
+        .slider .main-slider .owl-dots {
+          bottom: 10px; } }
     .slider .main-slider:hover .owl-nav {
       width: 100%; }
   @media (min-width: 992px) {
